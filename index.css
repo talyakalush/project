@@ -1,0 +1,607 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+  }
+
+  body {
+      background-color: rgb(247, 237, 226);
+      font-family: 'Barlow Condensed', sans-serif;
+      color: #084630;
+
+  }
+
+  .container-fluid {
+      height: 4vh;
+
+
+  }
+
+  .container-fluid img {
+      height: 5vh;
+  }
+
+  .container-fluid a {
+      float: right;
+  }
+
+  .container-top {
+      margin-top: 2%;
+      width: 100vw;
+      height: 25vh;
+      color: #e0d3d3;
+      background-color: #084630;
+      ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .container-top h1 {
+      margin-top: 1%;
+  }
+
+
+  .technology {
+      width: 100%;
+      height: 7vh;
+      /* background-color: beige; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+  }
+
+  .technology img {
+      height: 5vh;
+
+  }
+
+  .about-myself {
+      width: 100%;
+      height: 52vh;
+      /* border: 5px solid black; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+
+  .about-myself p {
+      width: 23vw;
+      text-align: center;
+  }
+
+  .about-myself img {
+      border-radius: 50px;
+
+  }
+
+  .about-myself a {
+      color: #084630;
+      text-decoration: none;
+  }
+
+  .gallery {
+
+      width: 100%;
+      height: 78%;
+      /* border: 1px solid #000; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .gallery h1 {
+      width: 12vw;
+
+  }
+
+  .gallery P {
+      width: 25VW;
+      text-align: center;
+  }
+
+  .container-box {
+      width: 70%;
+      height: 100vh;
+      /* border: 1px solid #000; */
+
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 2;
+      gap: 4px;
+
+  }
+
+  .box1 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+
+      grid-row: 1/2;
+      grid-column:
+          1/2;
+  }
+
+  .back {
+      width: 100%;
+      height: 60%;
+      background-color: #084630;
+      ;
+      ;
+
+  }
+
+  .box1 h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .box2 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+
+      grid-row: 1/2;
+      grid-column: 2/3;
+  }
+
+  .box2 h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .box3 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      grid-row: 1/2;
+      grid-column: 3/4;
+  }
+
+  .box3 .back img {
+      width: 100%;
+      height: 100%;
+      border: #084630 2px solid;
+
+
+  }
+
+  .box3 h1,
+  h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .box3 img {
+      width: 2vw;
+      height: 5vh;
+      margin-top: 0;
+
+  }
+
+  .box3 .project {
+      width: 10vh;
+      text-align: center;
+      height: 15vh;
+  }
+
+  .box3 .kishor {
+      width: 9vw;
+      height: 7vh;
+      color: black;
+
+      text-align: center;
+  }
+
+  .box4 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+
+      grid-row: 2/3;
+      grid-column: 1/2;
+  }
+
+  .box4 h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .box5 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+
+      grid-row: 2/3;
+      grid-column: 2/3;
+  }
+
+  .box5 h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .box6 {
+      width: 15vw;
+      height: 42vh;
+      border: 1px solid #000;
+
+      grid-row: 2/3;
+      grid-column: 3/4;
+  }
+
+  .box6 h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 15vw;
+  }
+
+  .talk-to-me {
+      width: 100%;
+      height: 58vh;
+      /* border: 1px solid #000; */
+      margin-top: 7%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #084630;
+      color: rgb(247, 237, 226);
+
+  }
+
+  .talk-to-me .text {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+  }
+
+  .talk-to-me h1 {
+      text-align: right;
+      margin-right: 3%;
+      height: 8vh;
+  }
+
+  .talk-to-me form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      height: 40vh;
+      width: 30%;
+  }
+
+  .talk-to-me label {
+
+      margin-right: 60%;
+
+      width: 20vw;
+  }
+
+
+  .talk-to-me input {
+
+      border: hidden;
+      border-bottom: 2px black solid;
+      width: 25vw;
+
+  }
+
+  .talk-to-me .send {
+      width: 6vw;
+      background-color: rgb(247, 237, 226);
+      color: #084630;
+      border-radius: 25px;
+      margin-top: 2%;
+  }
+
+  .letter {
+      height: 100%;
+      width: 40%;
+      /* border-bottom: 1px solid #000; */
+  }
+
+  .letter img {
+      width: 55%;
+      height: 85%;
+      margin-left: 33%;
+      /* margin-top: 9%; */
+
+      opacity: 0.5;
+
+
+
+  }
+
+  .footer {
+      width: 100%;
+      height: 10vh;
+      /* background-color: beige; */
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+  }
+
+  .footer img {
+
+      width: 2vw;
+      height: 2vh;
+  }
+
+  .footer .location {
+      width: 1vw;
+  }
+
+  .email {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer-end {
+      width: 100%;
+      height: 5vh;
+      background-color: black;
+      color: beige;
+      margin-top: 0;
+
+  }
+
+  @media screen and (max-width:750px) {
+
+      #rashi {
+          height: 65vh;
+
+
+      }
+
+      .container-top p {
+          height: 40vh;
+          text-align: center;
+
+      }
+
+      .container-top h1 {
+          margin-top: 10%;
+
+          height: 15vh;
+      }
+
+      .gallery P {
+          width: 65VW;
+      }
+
+      .gallery h1 {
+          width: 40vw;
+      }
+
+      .about-myself P {
+          width: 65VW;
+      }
+
+      .about-myself {
+          height: 70vh;
+      }
+
+
+      .box1 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .box2 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .box3 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .box4 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .box5 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .box6 {
+          height: 15vh;
+          width: 22vw
+      }
+
+      .container-box {
+          height: 35vh;
+      }
+
+      .box2 h2 {
+          font-size: 0.75rem;
+          text-align: center;
+      }
+
+      .box1 h2 {
+          font-size: 0.75rem;
+          text-align: center;
+      }
+
+      .box4 h2 {
+          font-size: 0.75rem;
+          text-align: center;
+      }
+
+      .box5 h2 {
+          font-size: 0.75rem;
+          text-align: center;
+      }
+
+      .box6 h2 {
+          font-size: 0.75rem;
+          text-align: center;
+      }
+
+      .box3 img {
+          width: 2vw;
+          height: 1vh;
+          margin-top: 0;
+
+      }
+
+      .box3 h2 {
+          font-size: 0.5rem;
+      }
+
+      .box3 .project {
+          width: 100%;
+          text-align: center;
+          height: 25vh;
+      }
+
+      .box3 .back {
+          width: 100%;
+          height: 55%;
+          margin-top: 25%;
+      }
+
+      .box3 .imgg {
+          display: none;
+      }
+
+      .box3 .kishor {
+          width: 15vw;
+          height: 7vh;
+          color: black;
+          font-size: 0.5rem;
+          margin-bottom: 25%;
+
+          text-align: center;
+      }
+
+
+
+      .letter img {
+
+          height: 25vh;
+          width: 23vw;
+          margin-left: 5%;
+
+      }
+
+      .talk-to-me h1 {
+          width: 37vw;
+          /* margin-right: 15%; */
+          margin-top: 18%;
+      }
+
+      .text {
+          width: 59vw;
+          margin-right: 20%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10%;
+
+      }
+
+      .talk-to-me input {
+          width: 40vw;
+      }
+
+      .talk-to-me .send {
+          width: 15vw;
+      }
+
+      .talk-to-me label {
+
+          width: 33vw;
+      }
+
+      .forme {
+          margin-right: 15%;
+      }
+
+      .navbar-toggler-icon {
+          height: 3vh;
+          width: 3vw;
+          margin-bottom: 4%;
+
+
+      }
+
+      .navbar-brand img {
+          height: 6vh;
+          margin-bottom: 15%;
+      }
+
+      .nav-link {
+          width: 100%;
+          background-color: #e0d3d3;
+          border-bottom: 2px solid #084630;
+      }
+
+      .navbar.navbar-expand-lg.bg-body-tertiary {
+          margin-top: 0;
+          height: 10vh;
+      }
+
+      .navbar.navbar-expand-lg.bg-body-tertiary.fixed-top {
+          height: 12vh;
+      }
+
+
+
+  }
+
+  @media screen and (max-width:1000px) {
+      .navbar-toggler-icon {
+          height: 3vh;
+          width: 2vw;
+          margin-bottom: 4%;
+      }
+
+      .navbar-brand img {
+          height: 6vh;
+          margin-bottom: 15%;
+      }
+
+      .navbar.navbar-expand-lg.bg-body-tertiary.fixed-top {
+          height: 12vh;
+      }
+
+      .container-top {
+          height: 45vh;
+      }
+
+      #rashi {
+          height: 35vh;
+          margin-top: 8%;
+      }
+
+      .about-myself {
+          height: 78vh;
+      }
+
+      .gallery h1 {
+          width: 17vw;
+      }
+  }

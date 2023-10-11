@@ -1,0 +1,250 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: rgb(247, 237, 226);
+      color: #084630;
+  }
+
+  body {
+      font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  .page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  header {
+      position: fixed;
+      background-color: white;
+      margin-top: 0;
+      width: 100%;
+      height: 7vh;
+
+  }
+
+  header img {
+      height: 6vh;
+  }
+
+  .small {
+      height: 13vh;
+      width: 8vh;
+      margin-bottom: 8%;
+  }
+
+  .big {
+      height: 27vh;
+      width: 18vw;
+      margin-top: 5%;
+  }
+
+  .head {
+      height: 15vh;
+      width: 100vw;
+      margin-top: 15%;
+      font-size: 2.5rem;
+  }
+
+  .head h1 {
+      width: 100%;
+      text-align: center;
+      font-size: 2.5rem;
+      height: 20vh;
+  }
+
+  .container {
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 2;
+      height: 100vh;
+      width: 100%;
+      margin-top: 5%;
+  }
+
+  .project1 {
+      border: #084630 solid 2px;
+      grid-row: 1/2;
+      grid-column: 1/2;
+      height: 49vh;
+      width: 28vw;
+  }
+
+  .project2 {
+      border: #084630 solid 2px;
+      grid-row: 1/2;
+      grid-column: 2/3;
+      height: 49vh;
+      width: 28vw;
+  }
+
+  .project3 {
+      border: #084630 solid 2px;
+      grid-row: 1/2;
+      grid-column: 3/4;
+      height: 49vh;
+      width: 28vw;
+  }
+
+  .project4 {
+      border: #084630 solid 2px;
+      grid-row: 2/3;
+      grid-column: 1/2;
+      height: 49vh;
+      width: 28vw;
+  }
+
+  .project5 {
+      border: #084630 solid 2px;
+      grid-row: 2/3;
+      grid-column: 2/3;
+      width: 28vw;
+      height: 49vh;
+  }
+
+  .project6 {
+      border: #084630 solid 2px;
+      grid-row: 2/3;
+      grid-column: 3/4;
+      height: 49vh;
+      width: 28vw;
+  }
+
+  .footer {
+      background-color: black;
+      color: rgb(247, 237, 226);
+      width: 100%;
+      height: 4vh;
+      margin-bottom: 0;
+  }
+
+
+
+  @media screen and (max-width:750px) {
+
+      .page {
+          width: 100%;
+      }
+
+      .big {
+          display: none;
+      }
+
+      .small {
+          width: 7vw;
+          height: 10vh;
+      }
+
+      .project1 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .project2 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .project3 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .project4 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+      }
+
+      .project5 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+      }
+
+      .project6 {
+          width: 33vw;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      h1 {
+          width: 32vw;
+          font-size: 1rem;
+      }
+
+      .head {
+          height: 40vh;
+      }
+
+      .head h1 {
+          height: 70vh;
+
+      }
+
+      .hader {
+          width: 85%;
+          text-align: center;
+      }
+
+      p {
+          height: 26vh;
+          width: 100%;
+          text-align: center;
+          font-size: 0.75rem;
+      }
+
+      .getin a {
+          margin-top: 85%;
+          width: 13vw;
+          height: 8vh;
+      }
+
+      .getin {
+          height: 7vh;
+      }
+
+  }
+
+  @media screen and (max-width:1000px) {
+
+      .big {
+          height: 18vh;
+          width: 27vw;
+          display: none;
+      }
+
+      .container {
+          height: 100%;
+      }
+
+      h1 {
+          width: 20vw;
+      }
+  }

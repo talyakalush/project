@@ -6,7 +6,6 @@
      font-family: Heebo, Kalam, serif;
  }
 
- /* Main Elements setting */
  body {
      width: 100vw;
      background-color: #ffffff;
@@ -47,7 +46,6 @@
      background-color: #3b3d40eb;
  }
 
- /* Text Settings */
  .text {
      width: 94%;
      height: 95%;
@@ -69,13 +67,11 @@
      width: 22vw;
  }
 
- /* Form Settings */
  .form {
      display: flex;
      flex-direction: column;
      align-items: center;
      height: 20vh;
-
  }
 
  #fname,
@@ -108,10 +104,7 @@
      font-size: 16px;
  }
 
- /* Mobile Settings */
- @media screen and (max-width:768px) {
-
-     /* Main Elements setting */
+ @media screen and (max-width:760px) {
      .content-overlay {
          right: 0;
          left: 0;
@@ -133,8 +126,6 @@
      #container-bottom {
          height: 80vh;
      }
-
-     /* Text Settings */
      .header {
          width: 95%;
          font-family: 'Roboto', sans-serif;
@@ -155,8 +146,6 @@
          font-size: 15px;
          width: 65vw;
      }
-
-     /* Form Settings */
      #fname,
      #email {
          width: 80vw;
@@ -183,9 +172,20 @@
         background-image: url(./imge/Path\ 15.png);
     }
  }
- @media screen and (max-width:450px) {
+ @media screen and (max-width:480px) {
     .container-top{
         background-image: url(./imge/Path\ 15sm2.png) ;
+    }
+ }
+ @media screen and (max-width:408px) {
+.container-top {
+        height: 20vh;
+        background-image: url(./imge/Path\ 15sm.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 40vh;
     }
  }
 

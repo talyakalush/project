@@ -23,185 +23,14 @@
         href="https://fonts.googleapis.com/css2?family=Assistant&family=Heebo:wght@400;600;900&family=Roboto:wght@100;300&display=swap"
         rel="stylesheet">
 
-     <link rel="stylesheet" href="LandingPage3.css"> 
-
-<!-- 
-
-     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-
-            width: 100vw;
-            overflow: hidden;
-        }
-
-        .coffee {
-            width: 70%;
-            margin-left: 0px;
-        }
-
-
-        .container {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .text {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            width: 40vw;
-            height: 100vh;
-
-        }
-
-        .text h1 {
-            font-family: Heebo;
-            font-size: 35px;
-            color: #020253;
-            opacity: 1;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            width: 78%;
-
-        }
-
-        .text p {
-            font-family: 'Heebo';
-            font-size: 14px;
-            color: #020253;
-            text-align: right;
-            width: 70%;
-
-
-
-        }
-
-        .box3 {
-            height: 40%;
-            width: 70%;
-            display: flex;
-            justify-content: center; 
-            align-items: flex-end;
-            flex-direction: column; 
-
-        }
-
-        label {
-
-            font-family: 'Heebo', 'Roboto', sans-serif;
-            font-size: 12px;
-            letter-spacing: 0px;
-            color: #2C2C2C;
-            opacity: 1;
-
-        }
-
-        input {
-            background: #E5EEFF 0% 0% no-repeat padding-box;
-            border: #E5EEFF;
-            border-bottom: #020253 2px solid;
-            opacity: 1;
-            width: 300px;
-            height: 30px;
-        }
-
-        .send {
-            font-family: 'Heebo', sans-serif;
-            font-size: 18px;
-            letter-spacing: 0.33px;
-            color: #FFFFFF;
-            opacity: 1;
-            background: #020253 0% 0% no-repeat padding-box;
-            opacity: 1;
-            width: 120px;
-            height: 30px;
-
-
-        }
-
-        @media screen and (max-width:1000px) {
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            .container {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: 100%;
-            }
-
-            .coffee {
-                width: 100vw;
-
-            }
-
-            .coffee img {
-                width: 100%;
-                height: 100%;
-            }
-
-
-            .text {
-                height: 55%;
-                width: 85vw;
-                display: flex;
-                align-items: center;
-
-            }
-
-            input {
-                width: 82%;
-                height: 34px;
-                margin: 0;
-            }
-
-            .send {
-                width: 82%;
-                height: 34px;
-                font-size: 12px;
-            }
-
-            label {
-                font-size: 10px;
-            }
-
-            .box3 {
-                width: 80vw;
-                display: flex;
-                text-align: center;
-                height: 35vh;
-
-            }
-
-            .text p {
-                font-size: 15px;
-                text-align: right;
-                height: 10vh;
-                width: 80vw;
-            }
-
-            .text h1 {
-                font-size: 28px;
-                width: 80vw;
-                text-align: end;
-                height: 5vh;
+     <link rel="stylesheet" href="web3option.css"> 
 
 
 
 
-            }
-        }
-    </style> -->
+
+       
+    
 </head>
 
 <body>
@@ -209,7 +38,7 @@
     <div class="container">
 
         <div class="coffee">
-            <!-- <img src="./imge/Coffee.png" alt="coffee"> -->
+            
         </div>
 
 
@@ -225,13 +54,19 @@
                 את היום בחיוך, יש למלא את הפרטים:
             </p>
 
-            <div class="box3">
-                <label for="fname"> שם מלא</label>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="fname" class="label2">דוא"ל</label>
-                <input for="taxt" id="fname" name="lname" value=""><br>
+            <form div class="box3">
+              
+
+            
+                <label for="fname">שם מלא</label>
+                <input type="text" id="fname" name="fname" value="" required><br>
+                <label for="email" class="label2">דוא"ל</label>
+                <input type="email" id="email" name="email" value="" required><br>
                 <input class="send" type="submit" value="שליחה">
             </div>
+        </form>
+
+
 
         </div>
 

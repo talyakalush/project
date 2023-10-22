@@ -178,7 +178,6 @@ input[type=submit] {
         background-color: #E5EEFF;
     }
 
-    /* Main Elements Settings */
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -209,7 +208,6 @@ input[type=submit] {
         align-items: flex-end;
     }
 
-    /* Text Settings */
     .text h1 {
         color: #0EE1DA;
         font-size: 32px;
@@ -225,7 +223,6 @@ input[type=submit] {
         margin-top: 15%;
     }
 
-    /* Images Settings */
     #sunbeam {
         grid-column: 2/3;
         grid-row: 5/6;
@@ -324,7 +321,6 @@ input[type=submit] {
         max-height: 100%;
     }
 
-    /* Text Form Settings */
     form h2 {
         color: #FFFFFF;
         font-size: 2.1rem;
@@ -342,7 +338,6 @@ input[type=submit] {
         text-align: center;
     }
 
-    /* Form Settings */
     label {
         font-size: 1rem;
         color: #0EE1DA;

@@ -2,20 +2,16 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-
   }
 
   body {
       background-color: rgb(247, 237, 226);
       font-family: 'Barlow Condensed', sans-serif;
       color: #084630;
-
   }
 
   .container-fluid {
       height: 4vh;
-
-
   }
 
   .container-fluid img {
@@ -32,7 +28,6 @@
       height: 25vh;
       color: #e0d3d3;
       background-color: #084630;
-      ;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -42,11 +37,9 @@
       margin-top: 1%;
   }
 
-
   .technology {
       width: 100%;
       height: 7vh;
-      /* background-color: beige; */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -55,18 +48,15 @@
 
   .technology img {
       height: 5vh;
-
   }
 
   .about-myself {
       width: 100%;
-      height: 52vh;
-      /* border: 5px solid black; */
+      height: 54vh;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-
   }
 
   .about-myself p {
@@ -76,7 +66,6 @@
 
   .about-myself img {
       border-radius: 50px;
-
   }
 
   .about-myself a {
@@ -85,10 +74,8 @@
   }
 
   .gallery {
-
       width: 100%;
-      height: 78%;
-      /* border: 1px solid #000; */
+      height: 82%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -97,7 +84,7 @@
 
   .gallery h1 {
       width: 12vw;
-
+      text-align: center;
   }
 
   .gallery P {
@@ -108,20 +95,16 @@
   .container-box {
       width: 70%;
       height: 100vh;
-      /* border: 1px solid #000; */
-
       display: grid;
       grid-template-columns: 3;
       grid-template-rows: 2;
       gap: 4px;
-
   }
 
   .box1 {
       width: 15vw;
       height: 42vh;
       border: 1px solid #000;
-
       grid-row: 1/2;
       grid-column:
           1/2;
@@ -131,9 +114,6 @@
       width: 100%;
       height: 60%;
       background-color: #084630;
-      ;
-      ;
-
   }
 
   .box1 h2 {
@@ -146,7 +126,6 @@
       width: 15vw;
       height: 42vh;
       border: 1px solid #000;
-
       grid-row: 1/2;
       grid-column: 2/3;
   }
@@ -165,7 +144,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
       grid-row: 1/2;
       grid-column: 3/4;
   }
@@ -174,8 +152,6 @@
       width: 100%;
       height: 100%;
       border: #084630 2px solid;
-
-
   }
 
   .box3 h1,
@@ -189,7 +165,6 @@
       width: 2vw;
       height: 5vh;
       margin-top: 0;
-
   }
 
   .box3 .project {
@@ -202,7 +177,6 @@
       width: 9vw;
       height: 7vh;
       color: black;
-
       text-align: center;
   }
 
@@ -210,7 +184,6 @@
       width: 15vw;
       height: 42vh;
       border: 1px solid #000;
-
       grid-row: 2/3;
       grid-column: 1/2;
   }
@@ -225,7 +198,6 @@
       width: 15vw;
       height: 42vh;
       border: 1px solid #000;
-
       grid-row: 2/3;
       grid-column: 2/3;
   }
@@ -240,7 +212,6 @@
       width: 15vw;
       height: 42vh;
       border: 1px solid #000;
-
       grid-row: 2/3;
       grid-column: 3/4;
   }
@@ -254,7 +225,6 @@
   .talk-to-me {
       width: 100%;
       height: 58vh;
-      /* border: 1px solid #000; */
       margin-top: 7%;
       display: flex;
       flex-direction: row;
@@ -262,7 +232,6 @@
       justify-content: center;
       background-color: #084630;
       color: rgb(247, 237, 226);
-
   }
 
   .talk-to-me .text {
@@ -283,25 +252,20 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
       height: 40vh;
       width: 30%;
   }
 
   .talk-to-me label {
-
       margin-right: 60%;
-
       width: 20vw;
   }
 
 
   .talk-to-me input {
-
       border: hidden;
       border-bottom: 2px black solid;
       width: 25vw;
-
   }
 
   .talk-to-me .send {
@@ -315,33 +279,24 @@
   .letter {
       height: 100%;
       width: 40%;
-      /* border-bottom: 1px solid #000; */
   }
 
   .letter img {
       width: 55%;
       height: 85%;
       margin-left: 33%;
-      /* margin-top: 9%; */
-
       opacity: 0.5;
-
-
-
   }
 
   .footer {
       width: 100%;
       height: 10vh;
-      /* background-color: beige; */
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-
   }
 
   .footer img {
-
       width: 2vw;
       height: 2vh;
   }
@@ -361,26 +316,21 @@
       background-color: black;
       color: beige;
       margin-top: 0;
-
   }
 
   @media screen and (max-width:750px) {
 
       #rashi {
           height: 65vh;
-
-
       }
 
       .container-top p {
           height: 40vh;
           text-align: center;
-
       }
 
       .container-top h1 {
           margin-top: 10%;
-
           height: 15vh;
       }
 
@@ -497,19 +447,14 @@
           text-align: center;
       }
 
-
-
       .letter img {
-
           height: 25vh;
           width: 23vw;
           margin-left: 5%;
-
       }
 
       .talk-to-me h1 {
           width: 37vw;
-          /* margin-right: 15%; */
           margin-top: 18%;
       }
 
@@ -520,7 +465,6 @@
           align-items: center;
           justify-content: center;
           margin-bottom: 10%;
-
       }
 
       .talk-to-me input {
@@ -544,8 +488,6 @@
           height: 3vh;
           width: 3vw;
           margin-bottom: 4%;
-
-
       }
 
       .navbar-brand img {
@@ -567,9 +509,6 @@
       .navbar.navbar-expand-lg.bg-body-tertiary.fixed-top {
           height: 12vh;
       }
-
-
-
   }
 
   @media screen and (max-width:1000px) {

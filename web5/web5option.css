@@ -180,9 +180,10 @@ input[type=submit] {
 
     .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(12, 15vh);
+        grid-template-columns: repeat(2, 25vw);
+        grid-template-rows: repeat(12, 30vh);
         place-items: center;
+      
     }
 
     .text {
@@ -214,6 +215,7 @@ input[type=submit] {
         margin-bottom: 5px;
         width: 60vw;
          height: 6%; 
+         text-align: center;
     }
 
     .text p {
@@ -326,12 +328,11 @@ input[type=submit] {
         font-size: 2.1rem;
         text-align: center;
         margin-top: 30px;
-        width: 100vw;
+       
     }
 
     form p {
         color: #F9F9F9;
-        width: 100vw;
         padding: 20px;
         margin: 0;
         font-style: 15px;
@@ -376,4 +377,29 @@ input[type=submit] {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+@media screen and (max-width:450px) {
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(12, 22vh);
+    place-items: center;
+  
+}
+img {
+    height: 27vh;
+    width: 32vw;
+}
+form h2 {
+font-size: 1.5rem;
+}
+.text h1{
+font-size: 1.5rem;
+
+}
+.text p{
+font-size: 1rem;
+
+}
 }

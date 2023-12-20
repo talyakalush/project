@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+        <link rel="stylesheet" href="country.css">
+
+        
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<h1>The Countries of the World <i class="fa-solid fa-globe"></i></h1>
+<div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100  " data-bs-ride="carousel">
+    <div class="carousel-inner w-50  ">
+        <div class="carousel-item active">
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+ <div id="world" class="container">
+</div> 
+<div id="carouselExampleAutoplaying" class="carousel slide w-100 h-100" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    </div>
+
+<div class="container mt-3">
+    <div class="form-floating my-lg-1 mx-form-check-inline">
+        <input type="text" class="form-control" id="capital" placeholder="jerusalem" />
+        <label for="capital">Country</label>
+    </div>
+<button id="btn" class="btn btn-dark my-2 mx-1 h-auto" onclick="search()">Search</button>
+</div>
+<div id="content" class="container mt-3"></div>
+<div id="cards" class="container d-flex flex-wrap justify-content-center mt-3">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="apicantery.js">
+  
+</script> 
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Bebas+Neue&family=Heebo:wght@400;700;900&family=Kalam:wght@700&family=Lato:ital@1&family=Oswald:wght@200;300;400;500;600;700&family=Satisfy&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="calender.css">
+<script src="calender.js" defer></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="heder">
+    <i class="fa-solid fa-pen-to-square"></i>
+            <h1 id="month"></h1>
+            <div id="icon">
+            <span id="prev" class="baek"><i class="fa-solid fa-chevron-left" ></i></span>
+            <span id="next" class="next"><i class="fa-solid fa-chevron-right" ></i></span>
+            </div>
+        </div>
+        <div class="calender">
+        <table id="calTable"></table>
+        </div>
+    </div>
+                    <div id="box" >
+            <form class="form" action="">
+                <label for="eventDescription">Event:</label>
+                <input type="text"  id="eventDescription">
+                <label for="eventTime">event Time:</label>
+                <input type="time" id="eventime"> 
+                <label for="color">Color:</label> 
+                <input type="date" id="eventdate"> 
+                <label for="color">Color:</label>
+                <input type="color" id="color">
+                <button onclick="saveEvent()" id="btn1">Save</button>
+                <button onclick=" closeEvent()" id="btn1">Close</button>
+                <button onclick="daletEvent()" id="btn1">Delete</button>
+            </form>
+    </div>
+    <h3>Today:</h3>
+    <i class="fa-solid fa-calendar-days"></i>
+    <span id="today"></span>
+    </div>
+    <div id="overlay"></div>
+
+
+
+    
+</body>
+</html>

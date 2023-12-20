@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: snow;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: brown;
+}
+h3 {
+  text-align: center;
+  color: brown;
+}
+#theactions {
+  margin-top: 3%;
+  height: 80vh;
+}
+#active {
+  margin-bottom: 10%;
+}
+.line {
+  text-decoration: line-through;
+  color: red;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+.line2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+#border {
+  width: 100%;
+  border-bottom: 1px solid burlywood;
+}
+#comleted {
+  margin-top: 5%;
+}
+@media screen and (max-width: 770px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

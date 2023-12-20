@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: brown;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tictoc {
+  width: 40vw;
+  height: 60vh;
+  background-color: lightcoral;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px;
+}
+.tictoc .btn {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: 3px;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .tictoc {
+    height: 45vh;
+    width: 60vw;
+  }
+}

@@ -25,7 +25,7 @@
   color: #d3e10e;
   font-size: 60px;
   font-family: Heebo, Roboto, assistant, serif;
-  /* width: 54vw; */
+
   height: 20vh;
   text-align: center;
 }
@@ -36,10 +36,8 @@
   font-size: 16px;
   color: #f9f9f9;
   opacity: 1;
-  width: 62%;
+
   height: 10vh;
-  text-align: center;
-  margin-right: 1%;
 }
 
 .container-form {
